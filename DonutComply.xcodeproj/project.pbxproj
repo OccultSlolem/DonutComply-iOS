@@ -3,13 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3238E1D5276407EE004042B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3238E1D4276407EE004042B2 /* GoogleService-Info.plist */; };
 		3238E1D6276407EE004042B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3238E1D4276407EE004042B2 /* GoogleService-Info.plist */; };
 		3238E1D7276407EE004042B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3238E1D4276407EE004042B2 /* GoogleService-Info.plist */; };
+		3238E1DA27640AFA004042B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238E1D927640AFA004042B2 /* SettingsView.swift */; };
+		3238E1DB27640AFA004042B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238E1D927640AFA004042B2 /* SettingsView.swift */; };
+		3238E1DC27640AFA004042B2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3238E1D927640AFA004042B2 /* SettingsView.swift */; };
 		3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CB9D2763F7DD003E2D82 /* DonutComplyApp.swift */; };
 		3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CB9F2763F7DD003E2D82 /* ContentView.swift */; };
 		3246CBA22763F7E0003E2D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246CBA12763F7E0003E2D82 /* Assets.xcassets */; };
@@ -43,6 +46,7 @@
 		1ED748D3A08EA08EA239760F /* Pods-DonutComply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComply.release.xcconfig"; path = "Target Support Files/Pods-DonutComply/Pods-DonutComply.release.xcconfig"; sourceTree = "<group>"; };
 		2781C26F86547005F934ABD8 /* Pods-DonutComply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComply.debug.xcconfig"; path = "Target Support Files/Pods-DonutComply/Pods-DonutComply.debug.xcconfig"; sourceTree = "<group>"; };
 		3238E1D4276407EE004042B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3238E1D927640AFA004042B2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		3246CB9A2763F7DD003E2D82 /* DonutComply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutComply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3246CB9D2763F7DD003E2D82 /* DonutComplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyApp.swift; sourceTree = "<group>"; };
 		3246CB9F2763F7DD003E2D82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		3238E1CE2763FB5F004042B2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3238E1D827640ADE004042B2 /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -102,6 +107,14 @@
 			children = (
 			);
 			path = HelperScripts;
+			sourceTree = "<group>";
+		};
+		3238E1D827640ADE004042B2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3238E1D927640AFA004042B2 /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		3246CB912763F7DC003E2D82 = {
@@ -273,7 +286,7 @@
 				};
 			};
 			buildConfigurationList = 3246CB952763F7DC003E2D82 /* Build configuration list for PBXProject "DonutComply" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -429,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3238E1DA27640AFA004042B2 /* SettingsView.swift in Sources */,
 				3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */,
 				3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */,
 			);
@@ -439,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3246CBAF2763F7E0003E2D82 /* DonutComplyTests.swift in Sources */,
+				3238E1DB27640AFA004042B2 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3238E1DC27640AFA004042B2 /* SettingsView.swift in Sources */,
 				3246CBB92763F7E0003E2D82 /* DonutComplyUITests.swift in Sources */,
 				3246CBBB2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift in Sources */,
 			);
