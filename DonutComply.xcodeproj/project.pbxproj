@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3238E1D5276407EE004042B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3238E1D4276407EE004042B2 /* GoogleService-Info.plist */; };
+		3238E1D6276407EE004042B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3238E1D4276407EE004042B2 /* GoogleService-Info.plist */; };
+		3238E1D7276407EE004042B2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3238E1D4276407EE004042B2 /* GoogleService-Info.plist */; };
+		3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CB9D2763F7DD003E2D82 /* DonutComplyApp.swift */; };
+		3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CB9F2763F7DD003E2D82 /* ContentView.swift */; };
+		3246CBA22763F7E0003E2D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246CBA12763F7E0003E2D82 /* Assets.xcassets */; };
+		3246CBA52763F7E0003E2D82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3246CBA42763F7E0003E2D82 /* Preview Assets.xcassets */; };
+		3246CBAF2763F7E0003E2D82 /* DonutComplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBAE2763F7E0003E2D82 /* DonutComplyTests.swift */; };
+		3246CBB92763F7E0003E2D82 /* DonutComplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */; };
+		3246CBBB2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBBA2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift */; };
+		6FC4F805B7E8A77AFD40B0AF /* Pods_DonutComply.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0920D022908B8AD602703 /* Pods_DonutComply.framework */; };
+		A19BC1BDC30E7A7D691E16C2 /* Pods_DonutComplyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F21120D178FFC11A07DB4F /* Pods_DonutComplyTests.framework */; };
+		F7E8FA6381831A696598760B /* Pods_DonutComply_DonutComplyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBDB3FABE24B048975C8D92 /* Pods_DonutComply_DonutComplyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3246CBAB2763F7E0003E2D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3246CB922763F7DC003E2D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3246CB992763F7DD003E2D82;
+			remoteInfo = DonutComply;
+		};
+		3246CBB52763F7E0003E2D82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3246CB922763F7DC003E2D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3246CB992763F7DD003E2D82;
+			remoteInfo = DonutComply;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ED748D3A08EA08EA239760F /* Pods-DonutComply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComply.release.xcconfig"; path = "Target Support Files/Pods-DonutComply/Pods-DonutComply.release.xcconfig"; sourceTree = "<group>"; };
+		2781C26F86547005F934ABD8 /* Pods-DonutComply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComply.debug.xcconfig"; path = "Target Support Files/Pods-DonutComply/Pods-DonutComply.debug.xcconfig"; sourceTree = "<group>"; };
+		3238E1D4276407EE004042B2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3246CB9A2763F7DD003E2D82 /* DonutComply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonutComply.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246CB9D2763F7DD003E2D82 /* DonutComplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyApp.swift; sourceTree = "<group>"; };
+		3246CB9F2763F7DD003E2D82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3246CBA12763F7E0003E2D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3246CBA42763F7E0003E2D82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3246CBAA2763F7E0003E2D82 /* DonutComplyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutComplyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246CBAE2763F7E0003E2D82 /* DonutComplyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyTests.swift; sourceTree = "<group>"; };
+		3246CBB42763F7E0003E2D82 /* DonutComplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutComplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyUITests.swift; sourceTree = "<group>"; };
+		3246CBBA2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3EBDB3FABE24B048975C8D92 /* Pods_DonutComply_DonutComplyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutComply_DonutComplyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7603A971FA117C211AC91B /* Pods-DonutComplyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComplyTests.release.xcconfig"; path = "Target Support Files/Pods-DonutComplyTests/Pods-DonutComplyTests.release.xcconfig"; sourceTree = "<group>"; };
+		82F21120D178FFC11A07DB4F /* Pods_DonutComplyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutComplyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5B578CCFA6D9A99455588A /* Pods-DonutComply-DonutComplyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComply-DonutComplyUITests.debug.xcconfig"; path = "Target Support Files/Pods-DonutComply-DonutComplyUITests/Pods-DonutComply-DonutComplyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A0920D022908B8AD602703 /* Pods_DonutComply.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutComply.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17530F7216A834BF1380B91 /* Pods-DonutComplyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComplyTests.debug.xcconfig"; path = "Target Support Files/Pods-DonutComplyTests/Pods-DonutComplyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2859E3C8AFBE4C5BB8AA28C /* Pods-DonutComply-DonutComplyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComply-DonutComplyUITests.release.xcconfig"; path = "Target Support Files/Pods-DonutComply-DonutComplyUITests/Pods-DonutComply-DonutComplyUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3246CB972763F7DD003E2D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC4F805B7E8A77AFD40B0AF /* Pods_DonutComply.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246CBA72763F7E0003E2D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A19BC1BDC30E7A7D691E16C2 /* Pods_DonutComplyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246CBB12763F7E0003E2D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7E8FA6381831A696598760B /* Pods_DonutComply_DonutComplyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3238E1CE2763FB5F004042B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3238E1CF2763FB6B004042B2 /* HelperScripts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelperScripts;
+			sourceTree = "<group>";
+		};
+		3246CB912763F7DC003E2D82 = {
+			isa = PBXGroup;
+			children = (
+				3246CB9C2763F7DD003E2D82 /* DonutComply */,
+				3246CBAD2763F7E0003E2D82 /* DonutComplyTests */,
+				3246CBB72763F7E0003E2D82 /* DonutComplyUITests */,
+				3246CB9B2763F7DD003E2D82 /* Products */,
+				E3531E6989433B577BAF38D2 /* Pods */,
+				9F0FA961EFDD8B18C5B7665D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3246CB9B2763F7DD003E2D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3246CB9A2763F7DD003E2D82 /* DonutComply.app */,
+				3246CBAA2763F7E0003E2D82 /* DonutComplyTests.xctest */,
+				3246CBB42763F7E0003E2D82 /* DonutComplyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3246CB9C2763F7DD003E2D82 /* DonutComply */ = {
+			isa = PBXGroup;
+			children = (
+				3238E1D4276407EE004042B2 /* GoogleService-Info.plist */,
+				3246CB9D2763F7DD003E2D82 /* DonutComplyApp.swift */,
+				3246CB9F2763F7DD003E2D82 /* ContentView.swift */,
+				3246CBA12763F7E0003E2D82 /* Assets.xcassets */,
+				3238E1CF2763FB6B004042B2 /* HelperScripts */,
+				3238E1CE2763FB5F004042B2 /* Views */,
+				3246CBA32763F7E0003E2D82 /* Preview Content */,
+			);
+			path = DonutComply;
+			sourceTree = "<group>";
+		};
+		3246CBA32763F7E0003E2D82 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3246CBA42763F7E0003E2D82 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3246CBAD2763F7E0003E2D82 /* DonutComplyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3246CBAE2763F7E0003E2D82 /* DonutComplyTests.swift */,
+			);
+			path = DonutComplyTests;
+			sourceTree = "<group>";
+		};
+		3246CBB72763F7E0003E2D82 /* DonutComplyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */,
+				3246CBBA2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift */,
+			);
+			path = DonutComplyUITests;
+			sourceTree = "<group>";
+		};
+		9F0FA961EFDD8B18C5B7665D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A0920D022908B8AD602703 /* Pods_DonutComply.framework */,
+				3EBDB3FABE24B048975C8D92 /* Pods_DonutComply_DonutComplyUITests.framework */,
+				82F21120D178FFC11A07DB4F /* Pods_DonutComplyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3531E6989433B577BAF38D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2781C26F86547005F934ABD8 /* Pods-DonutComply.debug.xcconfig */,
+				1ED748D3A08EA08EA239760F /* Pods-DonutComply.release.xcconfig */,
+				AB5B578CCFA6D9A99455588A /* Pods-DonutComply-DonutComplyUITests.debug.xcconfig */,
+				F2859E3C8AFBE4C5BB8AA28C /* Pods-DonutComply-DonutComplyUITests.release.xcconfig */,
+				E17530F7216A834BF1380B91 /* Pods-DonutComplyTests.debug.xcconfig */,
+				4F7603A971FA117C211AC91B /* Pods-DonutComplyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3246CB992763F7DD003E2D82 /* DonutComply */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3246CBBE2763F7E0003E2D82 /* Build configuration list for PBXNativeTarget "DonutComply" */;
+			buildPhases = (
+				ACF89291E256A643293B592F /* [CP] Check Pods Manifest.lock */,
+				3246CB962763F7DD003E2D82 /* Sources */,
+				3246CB972763F7DD003E2D82 /* Frameworks */,
+				3246CB982763F7DD003E2D82 /* Resources */,
+				AFC4C71672B79DF5EDBD9941 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonutComply;
+			productName = DonutComply;
+			productReference = 3246CB9A2763F7DD003E2D82 /* DonutComply.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3246CBA92763F7E0003E2D82 /* DonutComplyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3246CBC12763F7E0003E2D82 /* Build configuration list for PBXNativeTarget "DonutComplyTests" */;
+			buildPhases = (
+				A41DF5BDC459E01A7EF51169 /* [CP] Check Pods Manifest.lock */,
+				3246CBA62763F7E0003E2D82 /* Sources */,
+				3246CBA72763F7E0003E2D82 /* Frameworks */,
+				3246CBA82763F7E0003E2D82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3246CBAC2763F7E0003E2D82 /* PBXTargetDependency */,
+			);
+			name = DonutComplyTests;
+			productName = DonutComplyTests;
+			productReference = 3246CBAA2763F7E0003E2D82 /* DonutComplyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3246CBB32763F7E0003E2D82 /* DonutComplyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3246CBC42763F7E0003E2D82 /* Build configuration list for PBXNativeTarget "DonutComplyUITests" */;
+			buildPhases = (
+				BC7314C6E7B741C16AA5B10D /* [CP] Check Pods Manifest.lock */,
+				3246CBB02763F7E0003E2D82 /* Sources */,
+				3246CBB12763F7E0003E2D82 /* Frameworks */,
+				3246CBB22763F7E0003E2D82 /* Resources */,
+				B1D3D1090DA15FE2DAE99435 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3246CBB62763F7E0003E2D82 /* PBXTargetDependency */,
+			);
+			name = DonutComplyUITests;
+			productName = DonutComplyUITests;
+			productReference = 3246CBB42763F7E0003E2D82 /* DonutComplyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3246CB922763F7DC003E2D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3246CB992763F7DD003E2D82 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3246CBA92763F7E0003E2D82 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3246CB992763F7DD003E2D82;
+					};
+					3246CBB32763F7E0003E2D82 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3246CB992763F7DD003E2D82;
+					};
+				};
+			};
+			buildConfigurationList = 3246CB952763F7DC003E2D82 /* Build configuration list for PBXProject "DonutComply" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3246CB912763F7DC003E2D82;
+			productRefGroup = 3246CB9B2763F7DD003E2D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3246CB992763F7DD003E2D82 /* DonutComply */,
+				3246CBA92763F7E0003E2D82 /* DonutComplyTests */,
+				3246CBB32763F7E0003E2D82 /* DonutComplyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3246CB982763F7DD003E2D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246CBA52763F7E0003E2D82 /* Preview Assets.xcassets in Resources */,
+				3246CBA22763F7E0003E2D82 /* Assets.xcassets in Resources */,
+				3238E1D5276407EE004042B2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246CBA82763F7E0003E2D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238E1D6276407EE004042B2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246CBB22763F7E0003E2D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3238E1D7276407EE004042B2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A41DF5BDC459E01A7EF51169 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonutComplyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF89291E256A643293B592F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonutComply-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC4C71672B79DF5EDBD9941 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutComply/Pods-DonutComply-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutComply/Pods-DonutComply-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DonutComply/Pods-DonutComply-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1D3D1090DA15FE2DAE99435 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutComply-DonutComplyUITests/Pods-DonutComply-DonutComplyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DonutComply-DonutComplyUITests/Pods-DonutComply-DonutComplyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DonutComply-DonutComplyUITests/Pods-DonutComply-DonutComplyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC7314C6E7B741C16AA5B10D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DonutComply-DonutComplyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3246CB962763F7DD003E2D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */,
+				3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246CBA62763F7E0003E2D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246CBAF2763F7E0003E2D82 /* DonutComplyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3246CBB02763F7E0003E2D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3246CBB92763F7E0003E2D82 /* DonutComplyUITests.swift in Sources */,
+				3246CBBB2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3246CBAC2763F7E0003E2D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3246CB992763F7DD003E2D82 /* DonutComply */;
+			targetProxy = 3246CBAB2763F7E0003E2D82 /* PBXContainerItemProxy */;
+		};
+		3246CBB62763F7E0003E2D82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3246CB992763F7DD003E2D82 /* DonutComply */;
+			targetProxy = 3246CBB52763F7E0003E2D82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3246CBBC2763F7E0003E2D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3246CBBD2763F7E0003E2D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3246CBBF2763F7E0003E2D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2781C26F86547005F934ABD8 /* Pods-DonutComply.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DonutComply/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.DonutComply";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3246CBC02763F7E0003E2D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED748D3A08EA08EA239760F /* Pods-DonutComply.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DonutComply/Preview Content\"";
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.DonutComply";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3246CBC22763F7E0003E2D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17530F7216A834BF1380B91 /* Pods-DonutComplyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.DonutComplyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonutComply.app/DonutComply";
+			};
+			name = Debug;
+		};
+		3246CBC32763F7E0003E2D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7603A971FA117C211AC91B /* Pods-DonutComplyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.DonutComplyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonutComply.app/DonutComply";
+			};
+			name = Release;
+		};
+		3246CBC52763F7E0003E2D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5B578CCFA6D9A99455588A /* Pods-DonutComply-DonutComplyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.DonutComplyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonutComply;
+			};
+			name = Debug;
+		};
+		3246CBC62763F7E0003E2D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2859E3C8AFBE4C5BB8AA28C /* Pods-DonutComply-DonutComplyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2W7LLA9UZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.ethan-hanlon.DonutComplyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DonutComply;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3246CB952763F7DC003E2D82 /* Build configuration list for PBXProject "DonutComply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246CBBC2763F7E0003E2D82 /* Debug */,
+				3246CBBD2763F7E0003E2D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3246CBBE2763F7E0003E2D82 /* Build configuration list for PBXNativeTarget "DonutComply" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246CBBF2763F7E0003E2D82 /* Debug */,
+				3246CBC02763F7E0003E2D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3246CBC12763F7E0003E2D82 /* Build configuration list for PBXNativeTarget "DonutComplyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246CBC22763F7E0003E2D82 /* Debug */,
+				3246CBC32763F7E0003E2D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3246CBC42763F7E0003E2D82 /* Build configuration list for PBXNativeTarget "DonutComplyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3246CBC52763F7E0003E2D82 /* Debug */,
+				3246CBC62763F7E0003E2D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3246CB922763F7DC003E2D82 /* Project object */;
+}
