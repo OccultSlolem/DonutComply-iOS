@@ -20,6 +20,7 @@
 		3246CBAF2763F7E0003E2D82 /* DonutComplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBAE2763F7E0003E2D82 /* DonutComplyTests.swift */; };
 		3246CBB92763F7E0003E2D82 /* DonutComplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */; };
 		3246CBBB2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBBA2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift */; };
+		32C7EC0A2764129200865A12 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7EC092764129200865A12 /* DataStructures.swift */; };
 		6FC4F805B7E8A77AFD40B0AF /* Pods_DonutComply.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0920D022908B8AD602703 /* Pods_DonutComply.framework */; };
 		A19BC1BDC30E7A7D691E16C2 /* Pods_DonutComplyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F21120D178FFC11A07DB4F /* Pods_DonutComplyTests.framework */; };
 		F7E8FA6381831A696598760B /* Pods_DonutComply_DonutComplyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EBDB3FABE24B048975C8D92 /* Pods_DonutComply_DonutComplyUITests.framework */; };
@@ -57,6 +58,7 @@
 		3246CBB42763F7E0003E2D82 /* DonutComplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonutComplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyUITests.swift; sourceTree = "<group>"; };
 		3246CBBA2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32C7EC092764129200865A12 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 		3EBDB3FABE24B048975C8D92 /* Pods_DonutComply_DonutComplyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutComply_DonutComplyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7603A971FA117C211AC91B /* Pods-DonutComplyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComplyTests.release.xcconfig"; path = "Target Support Files/Pods-DonutComplyTests/Pods-DonutComplyTests.release.xcconfig"; sourceTree = "<group>"; };
 		82F21120D178FFC11A07DB4F /* Pods_DonutComplyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutComplyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +107,7 @@
 		3238E1CF2763FB6B004042B2 /* HelperScripts */ = {
 			isa = PBXGroup;
 			children = (
+				32C7EC092764129200865A12 /* DataStructures.swift */,
 			);
 			path = HelperScripts;
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C7EC0A2764129200865A12 /* DataStructures.swift in Sources */,
 				3238E1DA27640AFA004042B2 /* SettingsView.swift in Sources */,
 				3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */,
 				3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */,
