@@ -18,9 +18,17 @@
 		3246CBAF2763F7E0003E2D82 /* DonutComplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBAE2763F7E0003E2D82 /* DonutComplyTests.swift */; };
 		325F2BD927641ECC00ACE19F /* AppleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BD827641ECC00ACE19F /* AppleSignInView.swift */; };
 		325F2BDB2764228300ACE19F /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BDA2764228300ACE19F /* AuthHelper.swift */; };
-		325F2BE02764278E00ACE19F /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BDF2764278E00ACE19F /* ListRow.swift */; };
-		325F2BE4276428AE00ACE19F /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BE3276428AE00ACE19F /* ViewModifiers.swift */; };
 		325F2BE52764301A00ACE19F /* DonutComplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */; };
+		325F2BE727643C5900ACE19F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BE627643C5800ACE19F /* SignInView.swift */; };
+		325F2BF127643D7700ACE19F /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BE927643D7700ACE19F /* ListRow.swift */; };
+		325F2BF227643D7700ACE19F /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BEA27643D7700ACE19F /* ViewModifiers.swift */; };
+		325F2BF327643D7700ACE19F /* CustomStyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BEC27643D7700ACE19F /* CustomStyledTextField.swift */; };
+		325F2BF427643D7700ACE19F /* CustomStyledGradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BED27643D7700ACE19F /* CustomStyledGradientButton.swift */; };
+		325F2BF527643D7700ACE19F /* CustomStyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BEE27643D7700ACE19F /* CustomStyledButton.swift */; };
+		325F2BF627643D7700ACE19F /* CustomStyledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BEF27643D7700ACE19F /* CustomStyledText.swift */; };
+		325F2BF727643D7700ACE19F /* CustomStyledGradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BF027643D7700ACE19F /* CustomStyledGradientText.swift */; };
+		325F2BF927643F3500ACE19F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BF827643F3500ACE19F /* Colors.swift */; };
+		325F2BFB276441B700ACE19F /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BFA276441B700ACE19F /* RegisterView.swift */; };
 		32C7EC0A2764129200865A12 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C7EC092764129200865A12 /* DataStructures.swift */; };
 		5B6F4D1E2765A5B500266CCA /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6F4D1D2765A5B500266CCA /* ArticleView.swift */; };
 		6FC4F805B7E8A77AFD40B0AF /* Pods_DonutComply.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0920D022908B8AD602703 /* Pods_DonutComply.framework */; };
@@ -62,8 +70,16 @@
 		3246CBBA2763F7E0003E2D82 /* DonutComplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutComplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		325F2BD827641ECC00ACE19F /* AppleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInView.swift; sourceTree = "<group>"; };
 		325F2BDA2764228300ACE19F /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
-		325F2BDF2764278E00ACE19F /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
-		325F2BE3276428AE00ACE19F /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		325F2BE627643C5800ACE19F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		325F2BE927643D7700ACE19F /* ListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		325F2BEA27643D7700ACE19F /* ViewModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		325F2BEC27643D7700ACE19F /* CustomStyledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledTextField.swift; sourceTree = "<group>"; };
+		325F2BED27643D7700ACE19F /* CustomStyledGradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledGradientButton.swift; sourceTree = "<group>"; };
+		325F2BEE27643D7700ACE19F /* CustomStyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledButton.swift; sourceTree = "<group>"; };
+		325F2BEF27643D7700ACE19F /* CustomStyledText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledText.swift; sourceTree = "<group>"; };
+		325F2BF027643D7700ACE19F /* CustomStyledGradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledGradientText.swift; sourceTree = "<group>"; };
+		325F2BF827643F3500ACE19F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		325F2BFA276441B700ACE19F /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		32C7EC092764129200865A12 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 		3EBDB3FABE24B048975C8D92 /* Pods_DonutComply_DonutComplyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonutComply_DonutComplyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7603A971FA117C211AC91B /* Pods-DonutComplyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonutComplyTests.release.xcconfig"; path = "Target Support Files/Pods-DonutComplyTests/Pods-DonutComplyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,8 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6F4D1C2765A5A500266CCA /* Article */,
-				325F2BDC2764276200ACE19F /* Helpers */,
-				3238E1D827640ADE004042B2 /* Settings */,
+				325F2BDC2764276200ACE19F /* Helpers */,				3238E1D827640ADE004042B2 /* Settings */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +142,8 @@
 			children = (
 				3238E1D927640AFA004042B2 /* SettingsView.swift */,
 				325F2BD827641ECC00ACE19F /* AppleSignInView.swift */,
+				325F2BE627643C5800ACE19F /* SignInView.swift */,
+				325F2BFA276441B700ACE19F /* RegisterView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -192,22 +209,28 @@
 			path = DonutComplyUITests;
 			sourceTree = "<group>";
 		};
-		325F2BDC2764276200ACE19F /* Helpers */ = {
+		325F2BE827643D7700ACE19F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				325F2BDD2764277300ACE19F /* Common */,
+				325F2BE927643D7700ACE19F /* ListRow.swift */,
+				325F2BEA27643D7700ACE19F /* ViewModifiers.swift */,
+				325F2BEB27643D7700ACE19F /* TextAndButtons */,
+				325F2BF827643F3500ACE19F /* Colors.swift */,
 			);
-			path = Helpers;
+			name = Helpers;
+			path = ../../../../../Downloads/Helpers;
 			sourceTree = "<group>";
 		};
-		325F2BDD2764277300ACE19F /* Common */ = {
+		325F2BEB27643D7700ACE19F /* TextAndButtons */ = {
 			isa = PBXGroup;
 			children = (
-				325F2BDF2764278E00ACE19F /* ListRow.swift */,
-				325F2BE3276428AE00ACE19F /* ViewModifiers.swift */,
+				325F2BEC27643D7700ACE19F /* CustomStyledTextField.swift */,
+				325F2BED27643D7700ACE19F /* CustomStyledGradientButton.swift */,
+				325F2BEE27643D7700ACE19F /* CustomStyledButton.swift */,
+				325F2BEF27643D7700ACE19F /* CustomStyledText.swift */,
+				325F2BF027643D7700ACE19F /* CustomStyledGradientText.swift */,
 			);
-			name = Common;
-			path = "../New Group/Common";
+			path = TextAndButtons;
 			sourceTree = "<group>";
 		};
 		5B6F4D1C2765A5A500266CCA /* Article */ = {
@@ -482,15 +505,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				325F2BE727643C5900ACE19F /* SignInView.swift in Sources */,
+				325F2BF927643F3500ACE19F /* Colors.swift in Sources */,
 				32C7EC0A2764129200865A12 /* DataStructures.swift in Sources */,
 				3238E1DA27640AFA004042B2 /* SettingsView.swift in Sources */,
 				5B6F4D1E2765A5B500266CCA /* ArticleView.swift in Sources */,
+				325F2BF327643D7700ACE19F /* CustomStyledTextField.swift in Sources */,
+				325F2BF227643D7700ACE19F /* ViewModifiers.swift in Sources */,
 				325F2BD927641ECC00ACE19F /* AppleSignInView.swift in Sources */,
-				325F2BE4276428AE00ACE19F /* ViewModifiers.swift in Sources */,
+				325F2BF627643D7700ACE19F /* CustomStyledText.swift in Sources */,
+				325F2BF427643D7700ACE19F /* CustomStyledGradientButton.swift in Sources */,
+				325F2BF727643D7700ACE19F /* CustomStyledGradientText.swift in Sources */,
+				325F2BF127643D7700ACE19F /* ListRow.swift in Sources */,
 				3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */,
 				3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */,
-				325F2BE02764278E00ACE19F /* ListRow.swift in Sources */,
+				325F2BFB276441B700ACE19F /* RegisterView.swift in Sources */,
 				325F2BDB2764228300ACE19F /* AuthHelper.swift in Sources */,
+				325F2BF527643D7700ACE19F /* CustomStyledButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
