@@ -17,7 +17,7 @@ struct ContentView: View {
                     Label("Featured", systemImage: "star.fill")
                 }
             
-            Text("Map")
+            MapUIView()
                 .tabItem {
                     Label("Map", systemImage: "map.fill")
                 }

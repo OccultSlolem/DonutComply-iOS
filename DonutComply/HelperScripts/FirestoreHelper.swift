@@ -14,8 +14,8 @@ struct FirestoreHelper {
     func getArticleByName(name: String, completionHandler: @escaping (Article?, Bool) -> Void) {
         var attempts = 0
         
-        while attempts < 4 {
-            exponentialBackoff(attempts: UInt64(attempts)) {
+//        while attempts < 4 {
+//            exponentialBackoff(attempts: UInt64(attempts)) {
                 Firestore.firestore().collection("articles").whereField("food", isEqualTo: name).getDocuments { querySnapshot, err in
                     if let err = err {
                         // FAIL
@@ -49,8 +49,8 @@ struct FirestoreHelper {
                         return
                     }
                 }
-            }
-        }
+//            }
+//        }
         
         if attempts > 5 {
             // :(
