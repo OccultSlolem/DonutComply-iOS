@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import FirebaseCore
+import Firebase
 
 @main
 struct DonutComplyApp: App {
@@ -15,6 +15,7 @@ struct DonutComplyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(SessionStore())
         }
     }
 }

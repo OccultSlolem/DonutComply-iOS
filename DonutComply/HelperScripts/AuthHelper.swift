@@ -6,10 +6,11 @@
 //
 
 import Foundation
-import FirebaseAuth
+import Combine
 import CryptoKit
+import Firebase
 
-public class AuthHelper {
+struct AuthHelper {
     /**
     * Generates nonce that is used for Sign in with Apple
     * This is used to prevent replay attacks
@@ -81,6 +82,28 @@ public class AuthHelper {
             } else {
                 // SUCCESS
                 completionHandler(true)
+            }
+        }
+    }
+}
+
+public class SessionStore: ObservableObject {
+    @Published var session = Auth.auth().currentUser {  // Note: Optional value
+        didSet {
+            self.didChange.send(self)
+        }
+    }
+    var didChange = PassthroughSubject<SessionStore, Never>()
+    var handle: AuthStateDidChangeListenerHandle?
+    
+    func listen() {
+        // Monitor auth changes
+        handle = Auth.auth().addStateDidChangeListener { auth, user in
+            if let user = user {
+                // Signed in!
+                self.session = user
+            } else {
+                self.session = nil
             }
         }
     }

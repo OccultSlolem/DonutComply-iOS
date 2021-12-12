@@ -9,11 +9,11 @@ import SwiftUI
 import FirebaseAuth
 
 struct SettingsView: View {
+    @EnvironmentObject var session: SessionStore
+    @State private var reload = false
     @State private var showingAlert = false
     @State private var alertTitle = ""
     @State private var alertMsg = ""
-    
-    private var currentUser = Auth.auth().currentUser
     
     var body: some View {
         NavigationView {
@@ -28,14 +28,26 @@ struct SettingsView: View {
                         Alert(title: Text(alertTitle), message: Text(alertMsg), dismissButton: .default(Text("OK")))
                     })
                     .hidden()
-                                
+
                 // MARK: - Top
-                HStack {
-                    if (currentUser != nil) {
-                        Text("Hello, " + (currentUser?.displayName ?? "human!"))
+                LazyVStack(alignment: .leading) {
+                    switch session.session {
+                    case nil:
+                        Text("Hello, guest!")
+                            .font(.largeTitle)
+                            .fontWeight(.ultraLight)
+                            .padding(.leading)
                         
+                    default:
+                        // Logged in
+                        Text("Hello, " + (session.session?.displayName ?? "human!"))
+                            .font(.largeTitle)
+                            .fontWeight(.ultraLight)
+                            .padding(.leading)
+                            
+                        // Verify email
                         LazyHStack {
-                            if (currentUser?.isEmailVerified) == true {
+                            if (session.session?.isEmailVerified) == true {
                                 HStack {
                                     Image(systemName: "checkmark.circle")
                                     
@@ -54,7 +66,7 @@ struct SettingsView: View {
                                     Spacer()
                                     
                                     Button(action: {
-                                        currentUser?.sendEmailVerification(completion: nil)
+                                        session.session?.sendEmailVerification(completion: nil)
                                         
                                         alertTitle = "Verification message sent"
                                         alertMsg = "Please check your email for a verification message. Check your spam/junk folder if you can't find it in your inbox."
@@ -74,28 +86,35 @@ struct SettingsView: View {
                             }
                         }
                         .padding(.top, -15.0)
-                    } else {
-                        Text("Hello, guest!")
-                            .font(.largeTitle)
-                            .fontWeight(.ultraLight)
-                            .padding(.leading)
+
+                        
                     }
-                    
-                    Spacer()
                 }
                 
                 
                 Divider()
-                
-                Spacer()
                 
                 // MARK: - Bottom
                 // Note that the list is mirrored vertically, so
                 // we have to apply FlipEffect to each
                 // ListRow and define the list backwards
                 List {
-                    if (currentUser != nil) {
-                        // TODO: Implement
+                    if (session.session != nil) {
+                        Button(action: {
+                            do {
+                                try Auth.auth().signOut()
+                            } catch {
+                                alertTitle = "Something went wrong"
+                                alertMsg = "Failed to sign out. Try again later."
+                                showingAlert = true
+                                return
+                            }
+                            
+                            reload = !reload
+                        }, label: {
+                            ListRow(text: "Sign out", sfSymbol: "escape", bgColor: Colors.aventurine)
+                        })
+                            .modifier(FlipEffect())
                     } else {
                         // Sign up
                         Button(action: {
@@ -136,5 +155,7 @@ extension View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+        SettingsView()
+            .preferredColorScheme(.dark)
     }
 }
