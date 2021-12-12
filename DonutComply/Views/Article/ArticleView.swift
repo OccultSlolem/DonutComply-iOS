@@ -56,12 +56,17 @@ struct ArticleView: View {
                     .padding(.leading)
             }
             
-            VStack{
+            VStack(alignment: .leading){
                 Divider()
+                Text("Ingredients: ")
+                    .font(.title2)
+                    .fontWeight(.heavy)
+                    
                 ForEach(testArticle.ingredients, id: \.self){ i in
-                    Text(i)
+                    Text("-  " + i)
                 }
-        }
+            }
+            .padding(.all)
     }
 }
 
