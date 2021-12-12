@@ -24,7 +24,7 @@ struct ArticleView: View {
                     .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                     .padding(.horizontal)
-                    
+                
                 HStack{
                     Text("Views : " + String(testArticle.views))
                         .padding(.leading)
@@ -60,12 +60,13 @@ struct ArticleView: View {
                 Text("Ingredients: ")
                     .font(.title2)
                     .fontWeight(.heavy)
-                    
+                
                 ForEach(testArticle.ingredients, id: \.self){ i in
                     Text("-  " + i)
                 }
             }
             .padding(.all)
+        }
     }
 }
 
@@ -73,5 +74,4 @@ struct ArticleView_Previews: PreviewProvider {
     static var previews: some View {
         ArticleView()
     }
-}
 }

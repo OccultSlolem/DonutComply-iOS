@@ -12,16 +12,12 @@ public struct Colors {
         return UIScreen.main.traitCollection.userInterfaceStyle
     }
     
-    // Politifi Branding
+    // DonutComply Branding
     public static let ancientPages = Color(hex: 0xDDD4D0)
     public static let duskyViolet = Color(hex: 0xCFC0BD)
     public static let gravelDust = Color(hex: 0xB8B8AA)
     public static let greenBay = Color(hex: 0x7F9183)
     public static let aventurine = Color(hex:0x586F6B)
-    
-    // Third party branding
-    public static let discordBgColor = Color(hex: 0x5865F2)
-    public static let instagramBgColor = Color(hex: 0xF09433)
     
     public static var buttonBackgroundColor: Color {
         if osTheme == UIUserInterfaceStyle.light {

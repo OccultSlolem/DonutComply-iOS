@@ -1,6 +1,6 @@
 //
 //  CustomStyledGradientButton.swift
-//  Politifi
+//  DonutComply
 //
 //  Created by Ethan Hanlon on 12/30/20.
 //

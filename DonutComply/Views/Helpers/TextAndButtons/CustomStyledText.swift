@@ -1,6 +1,6 @@
 //
 //  CustomStyledText.swift
-//  Politifi
+//  DonutComply
 //
 //  Created by Ethan Hanlon on 1/17/21.
 //

@@ -114,7 +114,7 @@ struct RegisterView: View {
 //                                            AnalyticsParameterMethod: EmailPasswordAuthSignInMethod
 //                        ])
                         
-                        alertTitle = "Welcome to Politifi!"
+                        alertTitle = "Welcome to DonutComply!"
                         alertMsg = "Please check your email for a confirmation message. In the meantime, start out by setting your display name. We hope you enjoy your time here!"
                         showingAlert = true
                         
