@@ -9,6 +9,8 @@ import Foundation
 import FirebaseFirestore
 
 struct FirestoreHelper {
+    
+    
     func getArticleByName(name: String, completionHandler: @escaping (Article?, Bool) -> Void) {
         var attempts = 0
         

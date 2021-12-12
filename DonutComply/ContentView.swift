@@ -12,8 +12,8 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            Text("Featured")
-                .tabItem {
+            FeaturedArticleView()
+            .tabItem {
                     Label("Featured", systemImage: "star.fill")
                 }
             
