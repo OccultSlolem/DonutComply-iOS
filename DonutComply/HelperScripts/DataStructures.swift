@@ -16,5 +16,8 @@ struct Article {
     var context: String
     var score: Int
     var views: Int
+    var prepTime: String
+    var cookingTime: String
+    var ingredients: [String] = []
     var steps: String
 }

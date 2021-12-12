@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ArticleView: View {
-    private var testArticle = Article(title: "North America", image: "Gorditas", lastEdit: 0, location: "Mexico City", name: "Tortas de Tamale", context: "Gorditas are made from nixtamalized maize flour. Nixtamalization is the origin of Mexican Culinary Culture. It’s a very old process that was invented by mesoamerican people. Gorditas are soft and filled with cheese, meat, and other fillings. It’s now a classic Mexican street food. ", score: 0, views: 0, steps: "")
+    private var testArticle = Article(title: "North America", image: "Gorditas", lastEdit: 0, location: "Mexico City", name: "Tortas de Tamale", context: "Gorditas are made from nixtamalized maize flour. Nixtamalization is the origin of Mexican Culinary Culture. It’s a very old process that was invented by mesoamerican people. Gorditas are soft and filled with cheese, meat, and other fillings. It’s now a classic Mexican street food. ", score: 0, views: 0, prepTime: "4 hours", cookingTime: "30 minutes", ingredients: ["4 cups all-purpose flour", "3 tablespoons cornmeal", "1 3/4 teaspoon salt", "2 3/4 teaspoons instant yeast", "4 tablespoons olive oil", "4 tablespoons butter", "2 tablespoons vegetable oil", "1 cup + 2 tablespoons lukewarm water", "3/4 lb mozzarella cheese", "1 lb sausage", "28oz diced tomatoes", "2 to 4 garlic cloves", "1 tablespoon sugar", "2 teaspoons mixure of oregano, basil, rosemary", "1 cup of parmesan"], steps: "")
     var body: some View {
         ScrollView{
             
@@ -55,6 +55,12 @@ struct ArticleView: View {
                 Text(testArticle.context)
                     .padding(.leading)
             }
+            
+            VStack{
+                Divider()
+                ForEach(testArticle.ingredients, id: \.self){ i in
+                    Text(i)
+                }
         }
     }
 }
@@ -63,4 +69,5 @@ struct ArticleView_Previews: PreviewProvider {
     static var previews: some View {
         ArticleView()
     }
+}
 }
