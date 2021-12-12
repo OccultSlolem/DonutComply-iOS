@@ -10,6 +10,8 @@ import FirebaseAuth
 import AuthenticationServices
 
 struct SignInView: View {
+    @Environment(\.presentationMode) var presentationMode
+    
     // Data entry
     @State private var email = ""
     @State private var password = ""
@@ -87,7 +89,7 @@ struct SignInView: View {
         Auth.auth().signIn(withEmail: email, password: password) { _, error in
             if(error == nil) {
                 // Push to LoadingView
-                pushToLoading = true
+                presentationMode.wrappedValue.dismiss()
             } else {
                 // Login failed, present error
                 print("Error signing in with email: \(String(describing: error))")

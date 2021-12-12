@@ -10,7 +10,6 @@ import FirebaseAuth
 
 struct SettingsView: View {
     @EnvironmentObject var session: SessionStore
-    @State private var reload = false
     @State private var showingAlert = false
     @State private var alertTitle = ""
     @State private var alertMsg = ""
@@ -109,30 +108,30 @@ struct SettingsView: View {
                                 showingAlert = true
                                 return
                             }
-                            
-                            reload = !reload
                         }, label: {
                             ListRow(text: "Sign out", sfSymbol: "escape", bgColor: Colors.aventurine)
                         })
                             .modifier(FlipEffect())
                     } else {
                         // Sign up
-                        Button(action: {
-                            print("Hello! :V")
-                        }, label: {
-                            ListRow(text: "Sign up", sfSymbol: "person.crop.circle.fill.badge.plus", bgColor: .black)
+                        NavigationLink(
+                            destination: RegisterView().environmentObject(session),
+                            label: {
+                                ListRow(text: "Sign up", sfSymbol: "person.crop.circle.fill.badge.plus", bgColor: .black)
                                 
                                 
-                                .modifier(FlipEffect())
-                        })
+                                    .modifier(FlipEffect())
+                            }
+                        )
                         
                         // TODO: Resolve lopsidedness
-                        Button(action: {
-                            print("Hello! :V")
-                        }, label: {
-                            ListRow(text: "Sign in", sfSymbol: "key.fill", bgColor: .black)
-                                .modifier(FlipEffect())
-                        })
+                        NavigationLink(
+                            destination: SignInView().environmentObject(session),
+                            label: {
+                                ListRow(text: "Sign in", sfSymbol: "key.fill", bgColor: .black)
+                                    .modifier(FlipEffect())
+                            }
+                        )
                     }
                 }
                 .padding(.top)

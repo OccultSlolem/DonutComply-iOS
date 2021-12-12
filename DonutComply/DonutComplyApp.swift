@@ -11,11 +11,15 @@ import Firebase
 @main
 struct DonutComplyApp: App {
     @UIApplicationDelegateAdaptor(Delegate.self) var delegate
+    @StateObject var session = SessionStore()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(SessionStore())
+                .environmentObject(session)
+                .onAppear {
+                    session.listen()
+                }
         }
     }
 }

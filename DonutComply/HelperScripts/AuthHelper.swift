@@ -71,7 +71,6 @@ struct AuthHelper {
             // FAIL, No user
             completionHandler(false)
             return
-            
         }
         let userChangeRequest = user.createProfileChangeRequest()
         userChangeRequest.photoURL = photoURL

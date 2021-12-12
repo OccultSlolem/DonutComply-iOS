@@ -11,6 +11,7 @@ import FirebaseStorage
 import AuthenticationServices
 
 struct RegisterView: View {
+    @Environment(\.presentationMode) var presentationMode
     // Data entry
     @State private var email = ""
     @State private var password = ""
@@ -118,7 +119,8 @@ struct RegisterView: View {
                         showingAlert = true
                         
                         user.sendEmailVerification(completion: nil)
-//                        pushToOnboarding = true
+                        
+                        presentationMode.wrappedValue.dismiss()
                         
                         
                     }
