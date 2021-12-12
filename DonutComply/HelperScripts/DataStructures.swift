@@ -13,7 +13,9 @@ struct Article {
     var title: String
     var image: String
     var lastEdit: Int
-    var location: String // TODO
+    var location: String // A general location, showed in the article
+    var lat: Double // Latitude
+    var lon: Double // Longitude
     var name: String
     var context: String
     var score: Int

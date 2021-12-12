@@ -24,6 +24,8 @@
 		3252112A2765BDDD0063D0F0 /* CustomStyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325211252765BDDD0063D0F0 /* CustomStyledButton.swift */; };
 		3252112B2765BDDD0063D0F0 /* CustomStyledText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325211262765BDDD0063D0F0 /* CustomStyledText.swift */; };
 		3252112C2765BDDD0063D0F0 /* CustomStyledGradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325211272765BDDD0063D0F0 /* CustomStyledGradientText.swift */; };
+		325B1B882765F5720078411E /* FirestoreHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B1B872765F5720078411E /* FirestoreHelper.swift */; };
+		325B1B8A2765F5FE0078411E /* FeaturedArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325B1B892765F5FE0078411E /* FeaturedArticleView.swift */; };
 		325F2BD927641ECC00ACE19F /* AppleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BD827641ECC00ACE19F /* AppleSignInView.swift */; };
 		325F2BDB2764228300ACE19F /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325F2BDA2764228300ACE19F /* AuthHelper.swift */; };
 		325F2BE52764301A00ACE19F /* DonutComplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3246CBB82763F7E0003E2D82 /* DonutComplyUITests.swift */; };
@@ -79,6 +81,8 @@
 		325211262765BDDD0063D0F0 /* CustomStyledText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledText.swift; sourceTree = "<group>"; };
 		325211272765BDDD0063D0F0 /* CustomStyledGradientText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStyledGradientText.swift; sourceTree = "<group>"; };
 		3252112D2765E6280063D0F0 /* DonutComply.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DonutComply.entitlements; sourceTree = "<group>"; };
+		325B1B872765F5720078411E /* FirestoreHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreHelper.swift; sourceTree = "<group>"; };
+		325B1B892765F5FE0078411E /* FeaturedArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedArticleView.swift; sourceTree = "<group>"; };
 		325F2BD827641ECC00ACE19F /* AppleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInView.swift; sourceTree = "<group>"; };
 		325F2BDA2764228300ACE19F /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
 		325F2BE627643C5800ACE19F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 				32B0B2192765A38200D3C862 /* Colors.swift */,
 				32C7EC092764129200865A12 /* DataStructures.swift */,
 				325F2BDA2764228300ACE19F /* AuthHelper.swift */,
+				325B1B872765F5720078411E /* FirestoreHelper.swift */,
 			);
 			path = HelperScripts;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6F4D1D2765A5B500266CCA /* ArticleView.swift */,
+				325B1B892765F5FE0078411E /* FeaturedArticleView.swift */,
 			);
 			path = Article;
 			sourceTree = "<group>";
@@ -558,6 +564,8 @@
 				3246CBA02763F7DD003E2D82 /* ContentView.swift in Sources */,
 				3252112A2765BDDD0063D0F0 /* CustomStyledButton.swift in Sources */,
 				3246CB9E2763F7DD003E2D82 /* DonutComplyApp.swift in Sources */,
+				325B1B882765F5720078411E /* FirestoreHelper.swift in Sources */,
+				325B1B8A2765F5FE0078411E /* FeaturedArticleView.swift in Sources */,
 				325F2BFB276441B700ACE19F /* RegisterView.swift in Sources */,
 				3252112C2765BDDD0063D0F0 /* CustomStyledGradientText.swift in Sources */,
 				325F2BDB2764228300ACE19F /* AuthHelper.swift in Sources */,
