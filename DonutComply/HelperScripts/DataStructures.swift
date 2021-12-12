@@ -13,6 +13,7 @@ struct Article {
     var lastEdit: Int
     var location: String // TODO
     var name: String
+    var context: String
     var score: Int
     var views: Int
     var steps: String
